@@ -1,0 +1,36 @@
+{
+  "name": "discografica-capcds",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@sap/hana-client": "^2.20.22",
+    "@sap/xsenv": "^3.3.2",
+    "@sap/xssec": "^3.3.4",
+    "express": "^4",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "build": {
+      "target": "gen"
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
+    },
+    "requires": {
+      "db": {
+        "kind": "hana"
+      }
+    }
+  }
+}
