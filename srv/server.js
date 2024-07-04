@@ -5,9 +5,9 @@ const xsenv = require("@sap/xsenv");
 
 cds.on('bootstrap', app => {
 
-    // passport.use(new JWTStrategy(xsenv.getServices({'uaa': {tag: "xsuaa"}}).uaa));
-    // app.use(passport.initialize());
-    // app.use(passport.authenticate("JWT", { session: false}));
+    /* passport.use(new JWTStrategy(xsenv.getServices({'uaa': {tag: "xsuaa"}}).uaa));
+    app.use(passport.initialize());
+    app.use(passport.authenticate("JWT", { session: false})); */
 
    
 
