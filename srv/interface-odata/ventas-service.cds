@@ -1,4 +1,4 @@
-using {ventas} from '../db/ventas';
+using {ventas} from '../../db/ventas';
 
 service VentasService {
     entity Invoice       as projection on ventas.Invoice;

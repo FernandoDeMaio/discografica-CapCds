@@ -1,4 +1,5 @@
-using { sap.capire.discografica as my } from '../db/schema';
+using { sap.capire.discografica as my } from '../../db/schema';
+
 
 service discographyService { 
   entity Artist as projection on my.Artist{ 
