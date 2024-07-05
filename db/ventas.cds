@@ -3,7 +3,7 @@ namespace ventas;
 using {managed} from '@sap/cds/common';
 
 
-entity Invoice : managed {
+entity Invoice {
     key ID    : UUID;
         total : Decimal;
 
